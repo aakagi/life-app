@@ -1,0 +1,42 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# System
+.DS_Store
+*.pem
+
+# Editor
+.vscode
+
+# Node
+node_modules/
+
+# Yarn
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables
+**/*.env*
+
+# Code Cache
+**/tsconfig.tsbuildinfo
+**/.eslintcache
+
+# Electron Build
+/out/
+
+
+#
+# Unused - keeping in case we add Nextjs for web and/or Expo for mobile
+#
+
+# Android JDK (unused)
+*.hprof
+
+# Vercel (unused)
+.vercel
+
+# Nextjs (unused)
+/.next/
+
+# Expo (unused)
+.expo
